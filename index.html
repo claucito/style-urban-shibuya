@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URBAN SHIBUYA — Anime + Streetwear</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="has-navbar">
+
+  <!-- ==========================================
+       NAVBAR
+       ========================================== -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-logo">Urban<span>Shibuya</span></a>
+      
+      <ul class="navbar-nav" id="navbarNav">
+        <li><a href="#home" class="navbar-link">Home</a></li>
+        <li><a href="#products" class="navbar-link">Collection</a></li>
+        <li><a href="#featured" class="navbar-link">Featured</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+      
+      <div class="navbar-actions">
+        <a href="#" class="navbar-icon" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </a>
+        <a href="#" class="navbar-icon" aria-label="Cart">
+          <i class="fas fa-shopping-bag"></i>
+        </a>
+        <a href="#" class="navbar-icon" aria-label="Account">
+          <i class="fas fa-user"></i>
+        </a>
+      </div>
+      
+      <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <!-- Placeholder gradient background simulating an image -->
+      <div style="position: absolute; inset: 0; background: linear-gradient(135deg, #0D0D0D 0%, #1a1a2e 40%, #16213e 60%, #0f0f23 100%);"></div>
+      <div style="position: absolute; inset: 0; background: radial-gradient(circle at 80% 20%, rgba(230, 57, 70, 0.15) 0%, transparent 50%), radial-gradient(circle at 20% 80%, rgba(255, 214, 10, 0.1) 0%, transparent 40%);"></div>
+    </div>
+    
+    <div class="container">
+      <div class="hero-content animate-fadeInUp">
+        <span class="hero-eyebrow">New Season 2026</span>
+        <h1 class="hero-title">
+          Tokyo Street
+          <span class="accent">Revolution</span>
+        </h1>
+        <p class="hero-description">
+          Where anime energy meets streetwear culture. Bold designs for those who refuse to blend in.
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">
+            <i class="fas fa-bolt"></i> Shop Collection
+          </a>
+          <a href="#featured" class="btn btn-secondary">
+            <i class="fas fa-play"></i> Watch Lookbook
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CATEGORIES STRIP
+       ========================================== -->
+  <section class="section-sm" style="background-color: var(--color-black); border-bottom: 1px solid var(--color-white-10);">
+    <div class="container">
+      <div class="flex justify-center flex-wrap gap-xl">
+        <a href="#" class="text-uppercase text-gray" style="font-family: var(--font-heading); letter-spacing: var(--tracking-wider); transition: color var(--transition-fast);">T-Shirts</a>
+        <a href="#" class="text-uppercase text-gray" style="font-family: var(--font-heading); letter-spacing: var(--tracking-wider); transition: color var(--transition-fast);">Hoodies</a>
+        <a href="#" class="text-uppercase text-gray" style="font-family: var(--font-heading); letter-spacing: var(--tracking-wider); transition: color var(--transition-fast);">Jackets</a>
+        <a href="#" class="text-uppercase text-gray" style="font-family: var(--font-heading); letter-spacing: var(--tracking-wider); transition: color var(--transition-fast);">Accessories</a>
+        <a href="#" class="text-uppercase text-gray" style="font-family: var(--font-heading); letter-spacing: var(--tracking-wider); transition: color var(--transition-fast);">Limited Edition</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PRODUCTS SECTION
+       ========================================== -->
+  <section class="products-section section" id="products">
+    <div class="container">
+      <div class="products-header">
+        <div>
+          <span class="line-accent"></span>
+          <h2 class="products-title">Latest Drops</h2>
+        </div>
+        <div class="products-filter">
+          <button class="filter-btn active">All</button>
+          <button class="filter-btn">Tops</button>
+          <button class="filter-btn">Bottoms</button>
+          <button class="filter-btn">Accessories</button>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-4">
+        <!-- Product Card 1 -->
+        <article class="card">
+          <div class="card-image">
+            <span class="badge badge-new">New</span>
+            <!-- Placeholder product image -->
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); display: flex; align-items: center; justify-content: center;">
+              <i class="fas fa-tshirt" style="font-size: 4rem; color: var(--color-white-20);"></i>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Neon Districts Tee</h3>
+            <p class="card-text">Premium cotton blend, oversized fit</p>
+            <div class="card-price">¥4,800</div>
+            <a href="#" class="btn btn-accent btn-full btn-sm">
+              <i class="fas fa-shopping-bag"></i> Add to Cart
+            </a>
+          </div>
+        </article>
+        
+        <!-- Product Card 2 -->
+        <article class="card">
+          <div class="card-image">
+            <span class="badge badge-sale">-20%</span>
+            <!-- Placeholder product image -->
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #2d132c 0%, #801336 100%); display: flex; align-items: center; justify-content: center;">
+              <i class="fas fa-mitten" style="font-size: 4rem; color: var(--color-white-20);"></i>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Shibuya Crossing Hoodie</h3>
+            <p class="card-text">Heavyweight fleece, embroidered</p>
+            <div class="card-price">
+              <span class="sale">¥8,900</span>
+              <span class="original">¥11,200</span>
+            </div>
+            <a href="#" class="btn btn-accent btn-full btn-sm">
+              <i class="fas fa-shopping-bag"></i> Add to Cart
+            </a>
+          </div>
+        </article>
+        
+        <!-- Product Card 3 -->
+        <article class="card">
+          <div class="card-image">
+            <span class="badge badge-hot">Hot</span>
+            <!-- Placeholder product image -->
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%); display: flex; align-items: center; justify-content: center;">
+              <i class="fas fa-hat-cap" style="font-size: 4rem; color: var(--color-white-20);"></i>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Midnight Run Cap</h3>
+            <p class="card-text">6-panel structured, adjustable</p>
+            <div class="card-price">¥3,200</div>
+            <a href="#" class="btn btn-accent btn-full btn-sm">
+              <i class="fas fa-shopping-bag"></i> Add to Cart
+            </a>
+          </div>
+        </article>
+        
+        <!-- Product Card 4 -->
+        <article class="card">
+          <div class="card-image">
+            <span class="badge badge-limited">Limited</span>
+            <!-- Placeholder product image -->
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #14213d 0%, #e63946 100%); display: flex; align-items: center; justify-content: center;">
+              <i class="fas fa-vest" style="font-size: 4rem; color: var(--color-white-20);"></i>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Akihabara Bomber</h3>
+            <p class="card-text">Satin finish, numbered edition</p>
+            <div class="card-price">¥18,800</div>
+            <a href="#" class="btn btn-accent btn-full btn-sm">
+              <i class="fas fa-shopping-bag"></i> Add to Cart
+            </a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="text-center mt-2xl">
+        <a href="#" class="btn btn-secondary">
+          View All Products <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FEATURED SECTION
+       ========================================== -->
+  <section class="featured-section section" id="featured">
+    <div class="container">
+      <div class="featured-grid">
+        <div class="featured-content animate-slideInLeft">
+          <span class="featured-eyebrow">Featured Collection</span>
+          <span class="line-accent"></span>
+          <h2 class="featured-title">Harajuku<br>Dreams</h2>
+          <p class="featured-text">
+            Inspired by the iconic Harajuku district, this collection blends traditional Japanese aesthetics with modern streetwear silhouettes. Limited quantities — only 100 pieces per design.
+          </p>
+          <div class="flex gap-md flex-wrap">
+            <a href="#" class="btn btn-accent">
+              <i class="fas fa-fire"></i> Shop Now
+            </a>
+            <a href="#" class="btn btn-ghost">
+              Learn More <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <!-- Stats -->
+          <div class="flex gap-2xl mt-2xl">
+            <div>
+              <div style="font-family: var(--font-heading); font-size: var(--text-h1); color: var(--color-red);">100</div>
+              <div style="font-size: var(--text-small); color: var(--color-gray); text-transform: uppercase; letter-spacing: var(--tracking-wider);">Limited Pcs</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-heading); font-size: var(--text-h1); color: var(--color-yellow);">12</div>
+              <div style="font-size: var(--text-small); color: var(--color-gray); text-transform: uppercase; letter-spacing: var(--tracking-wider);">Unique Designs</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-heading); font-size: var(--text-h1); color: var(--color-white);">∞</div>
+              <div style="font-size: var(--text-small); color: var(--color-gray); text-transform: uppercase; letter-spacing: var(--tracking-wider);">Street Cred</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="featured-image animate-slideInRight">
+          <!-- Placeholder featured image -->
+          <div style="aspect-ratio: 4/5; background: linear-gradient(135deg, #1a1a2e 0%, #14213d 50%, #e63946 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: var(--space-2xl);">
+            <i class="fas fa-user-ninja" style="font-size: 8rem; color: var(--color-white-20); margin-bottom: var(--space-lg);"></i>
+            <span style="font-family: var(--font-heading); font-size: var(--text-h2); color: var(--color-white); text-transform: uppercase; letter-spacing: var(--tracking-widest);">Harajuku Dreams</span>
+            <span style="font-size: var(--text-small); color: var(--color-gray); margin-top: var(--space-sm);">Spring/Summer 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BRAND STRIP
+       ========================================== -->
+  <section class="section-sm" style="background: var(--color-black); border-top: 1px solid var(--color-white-10); border-bottom: 1px solid var(--color-white-10);">
+    <div class="container">
+      <div class="flex justify-center items-center flex-wrap gap-2xl text-gray" style="font-family: var(--font-heading); font-size: var(--text-h3); letter-spacing: var(--tracking-widest); text-transform: uppercase;">
+        <span>Premium Quality</span>
+        <span style="color: var(--color-red);">•</span>
+        <span>Japanese Craftsmanship</span>
+        <span style="color: var(--color-red);">•</span>
+        <span>Limited Editions</span>
+        <span style="color: var(--color-red);">•</span>
+        <span>Worldwide Shipping</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT / VALUES SECTION
+       ========================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="grid grid-cols-3" style="gap: var(--space-2xl);">
+        <!-- Value 1 -->
+        <div class="text-center">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--space-lg); background: var(--color-red-20); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-recycle" style="font-size: var(--text-h2); color: var(--color-red);"></i>
+          </div>
+          <h3 class="mb-md" style="font-family: var(--font-heading); text-transform: uppercase;">Sustainable</h3>
+          <p class="text-gray">Eco-friendly materials and ethical production. We care about the planet as much as style.</p>
+        </div>
+        
+        <!-- Value 2 -->
+        <div class="text-center">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--space-lg); background: var(--color-yellow-20); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-gem" style="font-size: var(--text-h2); color: var(--color-yellow);"></i>
+          </div>
+          <h3 class="mb-md" style="font-family: var(--font-heading); text-transform: uppercase;">Premium Quality</h3>
+          <p class="text-gray">Every piece is crafted with attention to detail. No compromises on materials or construction.</p>
+        </div>
+        
+        <!-- Value 3 -->
+        <div class="text-center">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--space-lg); background: var(--color-white-10); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-rocket" style="font-size: var(--text-h2); color: var(--color-white);"></i>
+          </div>
+          <h3 class="mb-md" style="font-family: var(--font-heading); text-transform: uppercase;">Fast Shipping</h3>
+          <p class="text-gray">Same-day dispatch from Tokyo warehouse. Worldwide delivery in 3-7 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       NEWSLETTER SECTION
+       ========================================== -->
+  <section class="section" style="background: linear-gradient(135deg, var(--color-black) 0%, rgba(230, 57, 70, 0.1) 100%);">
+    <div class="container">
+      <div class="text-center" style="max-width: 600px; margin: 0 auto;">
+        <span class="line-accent" style="margin: 0 auto var(--space-lg);"></span>
+        <h2 class="mb-md">Join The Movement</h2>
+        <p class="text-gray mb-2xl">Subscribe for exclusive drops, early access, and Tokyo street style inspiration delivered to your inbox.</p>
+        
+        <form class="newsletter-form" style="max-width: 450px; margin: 0 auto;">
+          <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-accent">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+        
+        <p class="text-xs text-gray mt-md">By subscribing, you agree to our Privacy Policy. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1: Brand -->
+        <div class="footer-section">
+          <a href="#" class="navbar-logo" style="display: inline-block; margin-bottom: var(--space-lg);">Urban<span>Shibuya</span></a>
+          <p class="text-gray" style="font-size: var(--text-small); line-height: var(--leading-relaxed);">
+            Tokyo-based streetwear brand blending anime aesthetics with modern Japanese fashion. Bold designs for those who stand out.
+          </p>
+        </div>
+        
+        <!-- Column 2: Quick Links -->
+        <div class="footer-section">
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Limited Edition</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+        
+        <!-- Column 3: Help -->
+        <div class="footer-section">
+          <h4>Help</h4>
+          <ul class="footer-links">
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <!-- Column 4: Company -->
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Urban Shibuya. All rights reserved.</p>
+        
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       JAVASCRIPT
+       ========================================== -->
+  <script>
+    // Mobile navbar toggle
+    const navbarToggle = document.getElementById('navbarToggle');
+    const navbarNav = document.getElementById('navbarNav');
+    
+    if (navbarToggle && navbarNav) {
+      navbarToggle.addEventListener('click', () => {
+        navbarNav.classList.toggle('active');
+        navbarToggle.classList.toggle('active');
+      });
+      
+      // Close menu when clicking a link
+      navbarNav.querySelectorAll('.navbar-link').forEach(link => {
+        link.addEventListener('click', () => {
+          navbarNav.classList.remove('active');
+          navbarToggle.classList.remove('active');
+        });
+      });
+    }
+    
+    // Filter buttons
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+    
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+    
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+    
+    // Observe elements for fade-in animation
+    document.querySelectorAll('.card, .featured-content, .featured-image').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
